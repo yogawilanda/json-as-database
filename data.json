@@ -1,0 +1,57 @@
+{
+    "saasData": {
+        "shops": [
+            {
+                "id": 1,
+                "name": "Toko Kelontong pak Joko"
+            },
+            {
+                "id": 2,
+                "name": "Restorran Bu Siti"
+            },
+            {
+                "id": 3,
+                "name": "Shop 3"
+            }
+        ],
+        "accounts": [
+            {
+                "id": 1,
+                "shopId": 1,
+                "name": "Admin"
+            },
+            {
+                "id": 2,
+                "shopId": 1,
+                "name": "Account 2"
+            },
+            {
+                "id": 3,
+                "shopId": 2,
+                "name": "Account 3"
+            }
+        ],
+        "products": [
+            {
+                "id": 1,
+                "shopId": 1,
+                "name": "Product 1"
+            },
+            {
+                "id": 2,
+                "shopId": 1,
+                "name": "Product 2"
+            },
+            {
+                "id": 3,
+                "shopId": 2,
+                "name": "Product 3"
+            },
+            {
+                "id": 4,
+                "shopId": 2,
+                "name": "Product 3"
+            }
+        ]
+    }
+}

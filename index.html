@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Web Application</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Shops</h2>
+    <table id="shopsTable">
+        <thead>
+            <tr>
+                <th>Shop ID</th>
+                <th>Shop Name</th>
+            </tr>
+        </thead>
+        <tbody id="shopsBody"></tbody>
+    </table>
+
+    <h2>Accounts</h2>
+    <table id="accountsTable">
+        <thead>
+            <tr>
+                <th>Account ID</th>
+                <th>Shop ID</th>
+                <th>Account Name</th>
+            </tr>
+        </thead>
+        <tbody id="accountsBody"></tbody>
+    </table>
+
+    <h2>Products</h2>
+    <table id="productsTable">
+        <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Shop ID</th>
+                <th>Product Name</th>
+            </tr>
+        </thead>
+        <tbody id="productsBody"></tbody>
+    </table>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
