@@ -30,6 +30,7 @@
             <tr>
                 <th>Shop ID</th>
                 <th>Shop Name</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody id="shopsBody"></tbody>
@@ -42,6 +43,7 @@
                 <th>Account ID</th>
                 <th>Shop ID</th>
                 <th>Account Name</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody id="accountsBody"></tbody>
@@ -54,10 +56,18 @@
                 <th>Product ID</th>
                 <th>Shop ID</th>
                 <th>Product Name</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody id="productsBody"></tbody>
     </table>
+
+    <h2>Add Shop</h2>
+    <form id="addShopForm">
+        <label for="shopName">Shop Name:</label>
+        <input type="text" id="shopName" name="shopName">
+        <button type="button" onclick="addShop()">Add Shop</button>
+    </form>
 
     <script src="scripts/script.js"></script>
 </body>
